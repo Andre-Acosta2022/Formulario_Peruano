@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 910px;
+    height: 890px;
+    margin: auto;
+    background: black;
+
+}
+cabecera{
+    height: 100px;
+    background: white;
+    margin-top: 40px;
+}
+#titulo{
+    width: 499px;
+    height: 100px;
+    background: red;
+    float: left;
+    color:#ffffff ;
+    font-size:35px ;
+
+
+}
+#logo{
+    width: 411px;
+    height: 100px;
+    float:right;
+
+}
+lateral{
+    float: left;
+
+}
+div{
+    width: 350px;
+    height: 80px;
+    background: red;
+    margin:auto;
+    margin-top: 80px;
+    margin-right: 130px;
+    float: right;
+    color:#ffffff ;
+    font-size:20px ;
+
+
+}
+#boton{
+    width:350px ;
+    height: 50px;
+    background:red;
+    color:#ffffff ;
+    background-position:center top ;
+    margin-top:200px ;
+    margin-left: 140px;
+
+}
+contenedor{
+    width:400px;
+    height: 70px;
+    float:top;
+    background-color:red;
+    margin:auto ;
+
+}
+pie{
+
+}
+.flexbox {
+    align-items: center;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    width: 200px;
+
+}
+.flexbox1 {
+    align-items: center;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    width: 200px;
+
+}
