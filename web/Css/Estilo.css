@@ -1,86 +1,126 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-body{
-    width: 910px;
-    height: 890px;
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    color: #333;
+    max-width: 1000px;
     margin: auto;
-    background: black;
-
 }
-cabecera{
-    height: 100px;
-    background: white;
+
+/* Header */
+.header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    border-bottom: 5px solid red;
+}
+
+.logo-estado img {
+    width: 200px;
+    height: auto;
+}
+
+.titulo-principal h1 {
+    font-size: 26px;
+    color: red;
+}
+
+/* Main */
+.main-container {
+    display: flex;
+    padding: 40px 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    margin-top: 30px;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+.formulario-container {
+    flex: 1;
+    padding-left: 40px;
+}
+
+.subtitulo {
+    font-size: 20px;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.titulo-form {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formulario input[type="text"],
+.formulario select {
+    padding: 10px;
+    width: 100%;
+    max-width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.fecha {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#boton {
+    background-color: red;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    max-width: 350px;
+}
+
+#boton:hover {
+    background-color: darkred;
+}
+
+.ayuda {
+    margin-top: 15px;
+}
+
+.ayuda a {
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.ayuda a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
     margin-top: 40px;
+    text-align: center;
 }
-#titulo{
-    width: 499px;
-    height: 100px;
-    background: red;
-    float: left;
-    color:#ffffff ;
-    font-size:35px ;
 
-
-}
-#logo{
-    width: 411px;
-    height: 100px;
-    float:right;
-
-}
-lateral{
-    float: left;
-
-}
-div{
-    width: 350px;
-    height: 80px;
-    background: red;
-    margin:auto;
-    margin-top: 80px;
-    margin-right: 130px;
-    float: right;
-    color:#ffffff ;
-    font-size:20px ;
-
-
-}
-#boton{
-    width:350px ;
-    height: 50px;
-    background:red;
-    color:#ffffff ;
-    background-position:center top ;
-    margin-top:200px ;
-    margin-left: 140px;
-
-}
-contenedor{
-    width:400px;
-    height: 70px;
-    float:top;
-    background-color:red;
-    margin:auto ;
-
-}
-pie{
-
-}
-.flexbox {
-    align-items: center;
-    display: flex;
-    height: 100px;
-    justify-content: center;
-    width: 200px;
-
-}
-.flexbox1 {
-    align-items: center;
-    display: flex;
-    height: 40px;
-    justify-content: center;
-    width: 200px;
-
+.footer img {
+    width: 100%;
+    height: auto;
 }
